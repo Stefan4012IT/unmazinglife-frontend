@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/unmazinglife-frontend/static/js/main.79f69267.js",
+    "main.css": "/unmazinglife-frontend/static/css/main.e8ae41b9.css",
+    "main.js": "/unmazinglife-frontend/static/js/main.c784fa81.js",
+    "static/media/hero_background-1.jpg": "/unmazinglife-frontend/static/media/hero_background-1.b228cd1b540cc6e364de.jpg",
+    "static/media/LogoUnmaze.svg": "/unmazinglife-frontend/static/media/LogoUnmaze.c54b05ceee5de79326d3b2118c2ea065.svg",
     "index.html": "/unmazinglife-frontend/index.html",
-    "main.79f69267.js.map": "/unmazinglife-frontend/static/js/main.79f69267.js.map"
+    "main.e8ae41b9.css.map": "/unmazinglife-frontend/static/css/main.e8ae41b9.css.map",
+    "main.c784fa81.js.map": "/unmazinglife-frontend/static/js/main.c784fa81.js.map"
   },
   "entrypoints": [
-    "static/js/main.79f69267.js"
+    "static/css/main.e8ae41b9.css",
+    "static/js/main.c784fa81.js"
   ]
 }
