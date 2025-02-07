@@ -1,0 +1,169 @@
+.btn-prime {
+    border-radius: 32px;
+    width: 200px;
+    height: 64px;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: linear-gradient(180deg, hsla(21, 90%, 62%, 1) 0%, hsla(331, 95%, 48%, 1) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    transition: all .3s;
+
+    @media only screen and (max-width: 1600px) {
+        width: 180px;
+        height: 58px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        width: 160px;
+        height: 50px;
+    }
+  
+    &:active {
+        box-shadow: none;
+        transform: scale(.99);
+    }
+  }
+
+
+
+
+
+  /* BURGER---BUTTON */
+  .burger-box {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background-color:#fff;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    @media only screen and (max-width: 992px) {
+        height: 25px;
+        width: 40px;
+     }
+
+    .line-1, .line-2, .line-3 {
+        position: absolute;
+        width: 50px;
+        height: 4px;
+        border-radius: 15px;
+        background: linear-gradient(180deg, hsla(21, 90%, 62%, 1) 0%, hsla(331, 95%, 48%, 1) 100%);
+
+        @media only screen and (max-width: 776px) {
+            width: 40px;
+            height: 3px;
+         }
+    }
+
+    .line-1 {
+        top: 0;
+    }
+
+    .line-2 {
+        top: 50%;
+    }
+
+    .line-3 {
+        top: 100%;
+    }
+
+    .change-to-close-1 {
+        top: 50%;
+        animation: changeToCloseBtn-1 .5s forwards;
+    }
+    .change-to-close-3 {
+        top: 50%;
+        animation: changeToCloseBtn-3 .5s forwards;
+    }
+    .change-to-close-2 {
+        animation: changeToCloseBtn-2 .5s forwards;
+    }
+
+    .change-to-normal-1 {
+        top: 0%;
+        animation: changeToNormalBtn-1 .5s forwards;
+    }
+    .change-to-normal-3 {
+        top: 100%;
+        animation: changeToNormalBtn-3 .5s forwards;
+    }
+    .change-to-normal-2 {
+        animation: changeToNormalBtn-2 .5s forwards;
+        
+    }
+    
+}
+
+/********************************** CLOSE **************************************/
+
+@keyframes changeToCloseBtn-1 {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(135deg);
+    }
+}
+
+@keyframes changeToCloseBtn-3 {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-135deg);
+    }
+}
+
+@keyframes changeToCloseBtn-2 {
+    0%{
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: .5;
+    }
+    100%{
+        left: 0%;
+        display: none;
+        opacity: 0;
+    }
+}
+/********************************** NORMALE **************************************/
+@keyframes changeToNormalBtn-1 {
+    0%{
+        transform: rotate(135deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes changeToNormalBtn-3 {
+    0%{
+        transform: rotate(135deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+@keyframes changeToNormalBtn-2 {
+    0%{
+        display: block;
+        left: 0%;
+        opacity: .5;
+    }
+    100%{
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+}

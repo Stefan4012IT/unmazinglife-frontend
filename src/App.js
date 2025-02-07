@@ -1,9 +1,10 @@
-
+import './styles/main.scss'; // Glavni Sass fajl
+import Home from './pages/Home'
 
 function App() {
   return (
     <>
-    <h1>HELLO</h1>
+      <Home />
     </>
   );
 }

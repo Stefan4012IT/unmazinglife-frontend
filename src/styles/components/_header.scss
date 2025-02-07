@@ -1,0 +1,180 @@
+.navigation {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgba($color: #FFF, $alpha: .9);
+    z-index: 100;
+
+    @media only screen and (max-width: 1200px) {
+        height: 80px;
+    }
+
+    .desktop-nav {
+        
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        
+
+        &--content {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .logoHeader {
+                width: 244px;
+                cursor: pointer;
+    
+                @media only screen and (max-width: 1600px) {
+                    width: 200px;
+                }
+            }
+
+            .nav-links {
+                width: 60%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                cursor: pointer;
+
+                @media only screen and (max-width: 1600px) {
+                    width: 70%;
+                }
+
+                @media only screen and (max-width: 1200px) {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+
+    .mobile-nav {
+        height: 100%;
+        width: 100%;
+        background-color: rgba($color: #FFF, $alpha: .9);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+
+        .logo-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .logoHeader {
+                width: 244px;
+                cursor: pointer;
+    
+                @media only screen and (max-width: 1400px) {
+                    width: 200px;
+                }
+            }
+        }
+
+
+        .btnBurger-regular {
+            height: 100%;
+        }
+    }
+
+    .mobile-menu {
+        position: absolute;
+        z-index: 500;
+        background-color: #FFF;
+        display: none;
+        width: 15%;
+        top: var(--visina-headera);
+        height: calc(100vh - var(--visina-headera));
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.3);
+        
+        @media only screen and (max-width: 1400px) {
+            width: 30%;
+        }
+        
+        @media only screen and (max-width: 992px) {
+            width: 50%;
+        }
+
+        &.showMobileMenu {
+            display: flex;
+            animation: showMobileMenu-1 1s forwards;
+        }
+        
+        &.hideMobileMenu {
+            animation: hideMobileMenu-1 1s forwards;
+        }
+    
+    }
+}
+
+@keyframes showMobileMenu-1 {
+    0%{
+        right: -15%;
+    }
+    100%{
+        right: 0%;
+        display: flex;
+    }
+}
+
+@keyframes hideMobileMenu-1 {
+    0%{
+        display: flex;
+        right: 0%;
+    }
+    100%{
+        right: -15%;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    @keyframes showMobileMenu-1 {
+        0%{
+            right: -30%;
+        }
+        100%{
+            right: 0%;
+            display: flex;
+        }
+    }
+    
+    @keyframes hideMobileMenu-1 {
+        0%{
+            display: flex;
+            right: 0%;
+        }
+        100%{
+            right: -30%;
+            display: none;
+        }
+    }
+ }
+
+@media only screen and (max-width: 992px) {
+    @keyframes showMobileMenu-1 {
+        0%{
+            right: -50%;
+        }
+        100%{
+            right: 0%;
+            display: flex;
+        }
+    }
+    
+    @keyframes hideMobileMenu-1 {
+        0%{
+            display: flex;
+            right: 0%;
+        }
+        100%{
+            right: -50%;
+            display: none;
+        }
+    }
+ }
