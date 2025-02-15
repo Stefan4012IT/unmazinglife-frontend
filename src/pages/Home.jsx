@@ -76,8 +76,7 @@ const Home = () => {
 
 
         </div>
-        <div className="section-2">
-          <div className="container">
+        <div className="section-2 container">
             <div className='headline wrapper' data-aos="zoom-in">
                 <h2>Features that makes app different!</h2>
                 <p>GLAVNI FEATURES of the printing and typese tting indus orem Ipsum has beenthe standard dummy.</p>
@@ -134,7 +133,6 @@ const Home = () => {
                   <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.</p>
               </div>
             </div>
-          </div>
         </div>
     </>
     
