@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.4a9dd6de.css",
-    "main.js": "/unmazinglife-frontend/static/js/main.d87c756e.js",
+    "main.css": "/unmazinglife-frontend/static/css/main.1f7a46c8.css",
+    "main.js": "/unmazinglife-frontend/static/js/main.c22d4d92.js",
     "static/media/iPhone_img_2.png": "/unmazinglife-frontend/static/media/iPhone_img_2.cc98dead41b7eb6a5926.png",
     "static/media/hero_background-1.jpg": "/unmazinglife-frontend/static/media/hero_background-1.b228cd1b540cc6e364de.jpg",
     "static/media/content_img_1of4.jpg": "/unmazinglife-frontend/static/media/content_img_1of4.de3eb360fd1912d22320.jpg",
@@ -17,12 +17,15 @@
     "static/media/icon_notes.svg": "/unmazinglife-frontend/static/media/icon_notes.72db1a9617596f248fe199b49c207636.svg",
     "static/media/icon_treasure.svg": "/unmazinglife-frontend/static/media/icon_treasure.31a8f240cfbe053ed720d8a84872bfd1.svg",
     "static/media/icon_meditation.svg": "/unmazinglife-frontend/static/media/icon_meditation.9707e194c90a2b1ec549b35f70240460.svg",
+    "static/media/icon_like.svg": "/unmazinglife-frontend/static/media/icon_like.0f227fae4ea8efbbdca281255c8e975e.svg",
     "index.html": "/unmazinglife-frontend/index.html",
-    "main.4a9dd6de.css.map": "/unmazinglife-frontend/static/css/main.4a9dd6de.css.map",
-    "main.d87c756e.js.map": "/unmazinglife-frontend/static/js/main.d87c756e.js.map"
+    "static/media/icon_profile.svg": "/unmazinglife-frontend/static/media/icon_profile.2ea00a36ce15845f1c0baab5d634e265.svg",
+    "static/media/icon_download.svg": "/unmazinglife-frontend/static/media/icon_download.80538a17cdc5c59900c93d84017ef2e5.svg",
+    "main.1f7a46c8.css.map": "/unmazinglife-frontend/static/css/main.1f7a46c8.css.map",
+    "main.c22d4d92.js.map": "/unmazinglife-frontend/static/js/main.c22d4d92.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a9dd6de.css",
-    "static/js/main.d87c756e.js"
+    "static/css/main.1f7a46c8.css",
+    "static/js/main.c22d4d92.js"
   ]
 }
