@@ -24,6 +24,35 @@ import icon_download from '../assets/icons/icon_download.svg';
 import icon_profile from '../assets/icons/icon_profile.svg';
 import icon_like from '../assets/icons/icon_like.svg';
 
+import icon_btn_video from '../assets/icons/icon_btn_play.svg';
+import Accordion from '../components/Accordion/Accordion';
+import RecentPosts from '../components/posts/RecentPosts';
+import ContactForm from '../components/Forms/ContactForm';
+
+const data = [
+  {
+    title: 'Why do I need Unmaze App?',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.',
+    isOpen: true,
+  },
+  {
+    title: 'Lorem ipsum dollor set?',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.',
+    isOpen: false,
+  },
+  {
+    title: 'Lorem ipsum dollor set?',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.',
+    isOpen: false,
+  },
+  {
+    title: 'Lorem ipsum dollor set?',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy. Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.',
+    isOpen: false,
+  },
+
+];
+
 const Home = () => {
 
     useEffect(() => {
@@ -167,7 +196,7 @@ const Home = () => {
         {/* SECTION-3 --- kraj */}
 
         {/* SECTION-4 --- pocetak */}
-        <section className='section-4'>
+        <div className='section-4'>
             <div className='container'>
               <div className="wrapper">
                 <div className='headline' data-aos="zoom-in">
@@ -196,8 +225,75 @@ const Home = () => {
               </div>
             </div>
 
-        </section>
+        </div>
         {/* SECTION-4 --- kraj */}
+
+        {/* SECTION-5 --- pocetak */}
+        <div className="section-5">
+          <div className="container">
+            <div className="wrapper">
+              <div className='video-box' data-aos="fade-up">
+              <img className='video_btn' src={icon_btn_video} alt='icon_btn_video' />
+              <p>Let’s see a promo video</p>
+              <span className='subtitle'>Watch video</span>
+            </div>
+            </div>
+          </div>
+        </div>
+        {/* SECTION-5 --- kraj */}
+
+        {/* SECTION-6 --- pocetak */}     
+        <div className="section-6">
+          <div className="container">
+            <div className="wrapper">
+              <div className='headline' data-aos="fade-down">
+                <h2>FAQ - Frequently Asked Questions</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.</p>
+              </div>
+
+              <div className='accordion-box'>
+                <Accordion data={data} />
+              </div>
+
+              <p className='quest' data-aos="fade-up" >Still have questions? <a href="#">Contact us.</a></p>
+            </div>
+          </div>
+        </div>
+        {/* SECTION-6 --- kraj */}
+
+        {/* SECTION-7 --- pocetak */}
+        <div className="section-7">
+          <div className="container">
+            <div className="wrapper">
+              <div className='headline' data-aos="zoom-in">
+                  <h2>Blog</h2>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.</p>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="recent-posts-container">
+              <RecentPosts />
+            </div>
+          </div>
+        </div>
+        {/* SECTION-7 --- kraj */}
+
+        {/* SECTION-8 --- pocetak */}
+        <div className="section-8">
+          <div className="container">
+            <div className="wrapper">
+              <div className='headline' data-aos="zoom-in">
+                  <h2>Contact Us</h2>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.</p>
+              </div>
+              <div className="contact-form" data-aos="fade-up">
+                <ContactForm />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SECTION-8 --- kraj */}
     </>
     
 

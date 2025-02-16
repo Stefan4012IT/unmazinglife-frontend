@@ -1,0 +1,88 @@
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+        margin: 70px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 624px;
+        height: 837px;
+        background-color: #FFF;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.13);
+    
+        @media only screen and (max-width: 992px) {
+            width: 95%;
+        }
+
+        .form--headline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 20px;
+    
+            p {
+                text-align: center;
+                width: 90%;
+    
+                @media only screen and (max-width: 992px) {
+                    width: 90%;
+                }
+            }
+    
+            h3 {
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    
+        input[type="text"],
+        input[type="email"] {
+            height: 64px;
+        }
+    
+        textarea {
+            height: 187px;
+        }
+    
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 60%;
+            padding: 10px 15px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            font-size: 16px;
+            box-sizing: border-box; // Da bi padding i border bili uključeni u ukupnu širinu
+            &:focus {
+                border-color: #000;
+                outline: none;
+            }
+    
+            @media only screen and (max-width: 992px) {
+                width: 95%;
+            }
+        }
+    
+        .checkbox-box {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+    
+            input[type="checkbox"] {
+                margin-right: 5px;
+                border-radius: 5px;
+            }
+            label {
+                font-size: 10px;
+            }
+        }
+    }
+}
+

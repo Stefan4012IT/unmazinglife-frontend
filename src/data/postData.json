@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Exploring the Future of AI",
+      "content": "Artificial Intelligence is evolving rapidly, bringing new challenges and opportunities...",
+      "metaDescription": "An overview of the future of AI and its impact on society.",
+      "keywords": ["AI", "Technology", "Future"],
+      "imgSrc": "/blogPhotos/blogImg-1.jpg",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": 2,
+      "title": "The Role of Meditation in a Busy Life",
+      "content": "Meditation is an essential tool for maintaining mental clarity and focus...",
+      "metaDescription": "How meditation can improve daily life and productivity.",
+      "keywords": ["Meditation", "Mindfulness", "Wellness"],
+      "imgSrc": "/blogPhotos/blogImg-2.jpg",
+      "createdAt": "2024-01-12"
+    },
+    {
+      "id": 3,
+      "title": "Understanding Quantum Computing",
+      "content": "Quantum computing is set to revolutionize industries by providing unprecedented processing power...",
+      "metaDescription": "An introduction to quantum computing and its potential applications.",
+      "keywords": ["Quantum Computing", "Technology", "Computing"],
+      "imgSrc": "/blogPhotos/blogImg-3.jpg",
+      "createdAt": "2024-01-14"
+    },
+    {
+      "id": 4,
+      "title": "Nutrition Hacks for a Healthy Lifestyle",
+      "content": "Good nutrition is the key to a healthy and productive life...",
+      "metaDescription": "Simple nutrition tips to maintain a balanced diet.",
+      "keywords": ["Nutrition", "Health", "Diet"],
+      "imgSrc": "/blogPhotos/blogImg-4.jpg",
+      "createdAt": "2024-01-16"
+    },
+    {
+      "id": 5,
+      "title": "The Impact of Music on Mental Health",
+      "content": "Music has been shown to reduce stress, improve mood, and even enhance cognitive function...",
+      "metaDescription": "Exploring the psychological benefits of listening to music.",
+      "keywords": ["Music", "Mental Health", "Psychology"],
+      "imgSrc": "/blogPhotos/blogImg-5.jpg",
+      "createdAt": "2024-01-18"
+    },
+    {
+      "id": 6,
+      "title": "How to Stay Productive While Working Remotely",
+      "content": "Remote work has become the new norm. Here’s how to stay productive while working from home...",
+      "metaDescription": "Tips and tricks for maintaining productivity while working remotely.",
+      "keywords": ["Remote Work", "Productivity", "Work"],
+      "imgSrc": "/blogPhotos/blogImg-6.jpg",
+      "createdAt": "2024-01-20"
+    },
+    {
+      "id": 7,
+      "title": "The Evolution of Web Design Trends",
+      "content": "Web design has drastically evolved over the past decade. Let's take a look at the latest trends...",
+      "metaDescription": "A review of the latest web design trends and best practices.",
+      "keywords": ["Web Design", "UI/UX", "Development"],
+      "imgSrc": "/blogPhotos/blogImg-7.jpg",
+      "createdAt": "2024-01-22"
+    }
+  ]
+  
