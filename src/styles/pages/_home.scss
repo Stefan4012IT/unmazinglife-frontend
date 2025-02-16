@@ -541,6 +541,96 @@
     
 }
 
+.section-4 {
+    padding: 70px 0;
+
+    @media only screen and (max-width: 992px) {
+        padding: 0 0 70px 0;
+    }
+
+    .headline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+        padding-bottom: 50px;
+
+        @media only screen and (max-width: 992px) {
+            align-items: center;
+            text-align: center;
+        }
+
+        p {
+            width: 60%;
+            text-align: center;
+            @media only screen and (max-width: 992px) {
+                width: 90%;
+            }
+        }
+    }
+    
+
+        .icon-set {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+
+            @media only screen and (max-width: 992px) {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                row-gap: 50px;
+            }
+
+            .first-box, .second-box, .third-box {
+                width: 30%;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                .title {
+                    padding-bottom: 10px;
+                }
+
+                @media only screen and (max-width: 992px) {
+                    height: auto;
+                    width: 90%;
+
+                    .title {
+                        padding: 10px 0 5px 0;
+                    }
+                }
+
+                
+            }
+
+            .second-box {
+                @media only screen and (max-width: 992px) {
+                    padding: 15px 0;
+                }
+            }
+
+        }
+    
+
+    .icon_pac-3 {
+        width: 87px;
+        padding-bottom: 30px;
+
+        @media only screen and (max-width: 992px) {
+            padding-bottom: 10px;
+        }
+    }
+
+
+    
+}
+
         
 @keyframes movingPositionAnimation {
     0% {

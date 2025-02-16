@@ -20,6 +20,10 @@ import icon_treasure from '../assets/icons/icon_treasure.svg';
 
 import img_phone_2 from '../assets/iPhone_img_2.png'
 
+import icon_download from '../assets/icons/icon_download.svg';
+import icon_profile from '../assets/icons/icon_profile.svg';
+import icon_like from '../assets/icons/icon_like.svg';
+
 const Home = () => {
 
     useEffect(() => {
@@ -161,6 +165,39 @@ const Home = () => {
           </div>
         </div>
         {/* SECTION-3 --- kraj */}
+
+        {/* SECTION-4 --- pocetak */}
+        <section className='section-4'>
+            <div className='container'>
+              <div className="wrapper">
+                <div className='headline' data-aos="zoom-in">
+                    <h2>How it works - 3 easy steps</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typese tting indus orem Ipsum has beenthe standard dummy.</p>
+                </div>
+                  <div className='icon-set' data-aos="zoom-in">
+                    <div className='first-box'>
+                        <img src={icon_download} alt='icon_1' className='icon_pac-3' />
+                        <h3 className='title'>Download app</h3>
+                        <p>Download App either for Windows, Mac or Android.</p>
+                    </div>
+
+                    <div className='second-box'>
+                        <img src={icon_profile} alt='icon_1' className='icon_pac-3' />
+                        <h3 className='title'>Create account</h3>
+                        <p>Sign up free for App account. One account for all devices.</p>
+                    </div>
+
+                    <div className='third-box'>
+                        <img src={icon_like} alt='icon_1' className='icon_pac-3' />
+                        <h3 className='title'>It’s done, enjoy the app</h3>
+                        <p>Have any questions check our FAQs Explore and share the app.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+        </section>
+        {/* SECTION-4 --- kraj */}
     </>
     
 
