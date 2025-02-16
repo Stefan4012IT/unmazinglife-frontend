@@ -8,7 +8,7 @@ import img_2 from '../assets/content_img_2of4.jpg';
 import img_3 from '../assets/content_img_3of4.jpg';
 import img_4 from '../assets/content_img_4of4.jpg';
 
-import img_phone from '../assets/iPhone_img_1.png'
+import img_phone_1 from '../assets/iPhone_img_1.png'
 import icon_calendar from '../assets/icons/icon_calendar.svg';
 import icon_meditation from '../assets/icons/icon_meditation.svg';
 import icon_journals from '../assets/icons/icon_notes.svg';
@@ -17,6 +17,8 @@ import icon_music from '../assets/icons/icon_music.svg';
 import icon_bottle from '../assets/icons/icon_bottle.svg';
 import icon_jar from '../assets/icons/icon_jar.svg';
 import icon_treasure from '../assets/icons/icon_treasure.svg';
+
+import img_phone_2 from '../assets/iPhone_img_2.png'
 
 const Home = () => {
 
@@ -31,6 +33,7 @@ const Home = () => {
   return (
     <>
         <Header />
+        {/* HERO-SECTION --- pocetak */}
         <div className="hero-section">
             <div className="container">
                 <div className="main-box wrapper">
@@ -42,6 +45,9 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        {/* HERO-SECTION --- kraj */}
+
+        {/* SECTION-1 --- pocetak */}
         <div className='section-1'>
           <div className="container">
             <div className="main-box wrapper">
@@ -71,11 +77,11 @@ const Home = () => {
 
               </div>
             </div>
-            
           </div>
-
-
         </div>
+        {/* SECTION-1 --- kraj */}
+
+        {/* SECTION-2 --- pocetak */}
         <div className="section-2 container">
             <div className='headline wrapper' data-aos="zoom-in">
                 <h2>Features that makes app different!</h2>
@@ -95,7 +101,7 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className='central-box-img '><img className='' src={img_phone} alt='img_phone' data-aos="zoom-in" /></div>
+                <div className='central-box-img '><img className='' src={img_phone_1} alt='img_phone' data-aos="zoom-in" /></div>
                 <div className='right-side'>
                     <div className='third-box' data-aos="fade-left">
                         <img src={icon_journals} alt='icon_3' className='icon_pac-1' />
@@ -134,6 +140,27 @@ const Home = () => {
               </div>
             </div>
         </div>
+        {/* SECTION-2 --- kraj */}
+
+        {/* SECTION-3 --- pocetak */}
+        <div className='section-3'>
+          <div className="container">
+            <div className='section-3--content-box wrapper'>
+
+              <div className='img_box' data-aos="zoom-in">
+                <img className='' src={img_phone_2} alt='img_phone' />
+              </div>
+
+              <div className='text-content-box' data-aos="fade-left">
+                <h2>Challenge tortor quam ante purus auctor opelle mi sed amet ac arcu.</h2>
+                <p>Pellentesque mi sed amet ac arcu venenatis dignissim magnis. Est eget massa id urna arcu ac. Eget porttitor feugiat mauris tempus eget velit congue. Et eu diam fringilla a vitae. Pellentesque mi sed amet ac arcu venenatis dignissim magnis.
+
+                  Est eget massa id urna arcu ac. Eget porttitor feugiat mauris tempus eget velit congue. Et eu diam fringilla a vitae.Pellentesque mi sed amet ac arcu venenatis dignissim magnis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SECTION-3 --- kraj */}
     </>
     
 
