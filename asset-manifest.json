@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.1f7a46c8.css",
+    "main.css": "/unmazinglife-frontend/static/css/main.2e5df938.css",
     "main.js": "/unmazinglife-frontend/static/js/main.c22d4d92.js",
     "static/media/iPhone_img_2.png": "/unmazinglife-frontend/static/media/iPhone_img_2.cc98dead41b7eb6a5926.png",
     "static/media/hero_background-1.jpg": "/unmazinglife-frontend/static/media/hero_background-1.b228cd1b540cc6e364de.jpg",
@@ -21,11 +21,11 @@
     "index.html": "/unmazinglife-frontend/index.html",
     "static/media/icon_profile.svg": "/unmazinglife-frontend/static/media/icon_profile.2ea00a36ce15845f1c0baab5d634e265.svg",
     "static/media/icon_download.svg": "/unmazinglife-frontend/static/media/icon_download.80538a17cdc5c59900c93d84017ef2e5.svg",
-    "main.1f7a46c8.css.map": "/unmazinglife-frontend/static/css/main.1f7a46c8.css.map",
+    "main.2e5df938.css.map": "/unmazinglife-frontend/static/css/main.2e5df938.css.map",
     "main.c22d4d92.js.map": "/unmazinglife-frontend/static/js/main.c22d4d92.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f7a46c8.css",
+    "static/css/main.2e5df938.css",
     "static/js/main.c22d4d92.js"
   ]
 }
