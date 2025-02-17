@@ -21,10 +21,10 @@ const Post = ({ post }) => {
                 <img src={`${PREFIX}/${post.imgSrc}`} alt={post.title} />
             </div>
             <div className='post-box'>
-                <span className='post-created'>{formatDate(post.createdAt)}</span>
+                <span className='post-created padd-1'>{formatDate(post.createdAt)}</span>
                 <h3 className='post-title'>{post.title}</h3>
                 <p className='post-content'>{truncateContent(post.content)}</p>
-                <a href="#">Read more</a>
+                <a className="padd-1" href="#">Read more</a>
             </div>
         </div>
     );

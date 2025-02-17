@@ -28,6 +28,7 @@ import icon_btn_video from '../assets/icons/icon_btn_play.svg';
 import Accordion from '../components/Accordion/Accordion';
 import RecentPosts from '../components/posts/RecentPosts';
 import ContactForm from '../components/Forms/ContactForm';
+import Footer from '../components/Footer/Footer';
 
 const data = [
   {
@@ -294,6 +295,9 @@ const Home = () => {
           </div>
         </div>
         {/* SECTION-8 --- kraj */}
+
+        {/* FOOTER --- pocetak */}
+        <Footer />
     </>
     
 
