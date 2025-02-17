@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.777f108c.css",
-    "main.js": "/unmazinglife-frontend/static/js/main.87245d92.js",
+    "main.css": "/unmazinglife-frontend/static/css/main.f1fa2aff.css",
+    "main.js": "/unmazinglife-frontend/static/js/main.f9c63cbf.js",
     "static/media/iPhone_img_2.png": "/unmazinglife-frontend/static/media/iPhone_img_2.cc98dead41b7eb6a5926.png",
     "static/media/video_img_1.jpg": "/unmazinglife-frontend/static/media/video_img_1.283acdf84b791394ac03.jpg",
     "static/media/hero_background-1.jpg": "/unmazinglife-frontend/static/media/hero_background-1.b228cd1b540cc6e364de.jpg",
@@ -9,27 +9,34 @@
     "static/media/iPhone_img_1.png": "/unmazinglife-frontend/static/media/iPhone_img_1.5ef23380839923c43dd4.png",
     "static/media/content_img_2of4.jpg": "/unmazinglife-frontend/static/media/content_img_2of4.ddb64a6e4ca47f71f656.jpg",
     "static/media/content_img_4of4.jpg": "/unmazinglife-frontend/static/media/content_img_4of4.894304a82867ee4dbfab.jpg",
+    "static/media/icon_appStore.svg": "/unmazinglife-frontend/static/media/icon_appStore.df9aba9a2571e2d0ed916dfe1e458c92.svg",
+    "static/media/icon_googleStore.svg": "/unmazinglife-frontend/static/media/icon_googleStore.a7d2cfdcce2148ff1ddb79732c059bda.svg",
     "static/media/content_img_3of4.jpg": "/unmazinglife-frontend/static/media/content_img_3of4.07a8da13f0656bbfb270.jpg",
     "static/media/LogoUnmaze.svg": "/unmazinglife-frontend/static/media/LogoUnmaze.c54b05ceee5de79326d3b2118c2ea065.svg",
+    "static/media/LogoUnmazeFooter.svg": "/unmazinglife-frontend/static/media/LogoUnmazeFooter.d7031d3ff4b9ab3a48037cb2383f49ef.svg",
     "static/media/icon_bottle.svg": "/unmazinglife-frontend/static/media/icon_bottle.ad6d46d7057bb9347d36c8a4cdd78af1.svg",
     "static/media/icon_music.svg": "/unmazinglife-frontend/static/media/icon_music.3ac03cfbe55041928acb0b9a3b9f3645.svg",
     "static/media/icon_calendar.svg": "/unmazinglife-frontend/static/media/icon_calendar.8f59154f2c16ab2861f9a73d688d7feb.svg",
+    "static/media/icon_insta.svg": "/unmazinglife-frontend/static/media/icon_insta.a13a78d74444760f39600324bbc9ff6f.svg",
     "static/media/icon_jar.svg": "/unmazinglife-frontend/static/media/icon_jar.a135f8385883761d2c0f3f3fb7829017.svg",
     "static/media/icon_notes.svg": "/unmazinglife-frontend/static/media/icon_notes.72db1a9617596f248fe199b49c207636.svg",
     "static/media/icon_treasure.svg": "/unmazinglife-frontend/static/media/icon_treasure.31a8f240cfbe053ed720d8a84872bfd1.svg",
     "static/media/icon_meditation.svg": "/unmazinglife-frontend/static/media/icon_meditation.9707e194c90a2b1ec549b35f70240460.svg",
+    "static/media/icon_yt.svg": "/unmazinglife-frontend/static/media/icon_yt.4ff9999b82ed832322ff27dc117e5f55.svg",
+    "static/media/icon_ln.svg": "/unmazinglife-frontend/static/media/icon_ln.a832674d25738796e91cc56ebd031a5a.svg",
     "static/media/icon_like.svg": "/unmazinglife-frontend/static/media/icon_like.0f227fae4ea8efbbdca281255c8e975e.svg",
+    "static/media/icon_fb.svg": "/unmazinglife-frontend/static/media/icon_fb.4a5147872ed9e1461e2fbb296b38dcbe.svg",
     "index.html": "/unmazinglife-frontend/index.html",
     "static/media/icon_profile.svg": "/unmazinglife-frontend/static/media/icon_profile.2ea00a36ce15845f1c0baab5d634e265.svg",
     "static/media/icon_download.svg": "/unmazinglife-frontend/static/media/icon_download.80538a17cdc5c59900c93d84017ef2e5.svg",
     "static/media/icon_btn_play.svg": "/unmazinglife-frontend/static/media/icon_btn_play.7ed7bea183143aac32bd9834c62e1c92.svg",
     "static/media/icon_plus.svg": "/unmazinglife-frontend/static/media/icon_plus.7727430098cc7399d748920a15a186df.svg",
     "static/media/icon_minus.svg": "/unmazinglife-frontend/static/media/icon_minus.37d597b757f2784b31f6973a675fb78e.svg",
-    "main.777f108c.css.map": "/unmazinglife-frontend/static/css/main.777f108c.css.map",
-    "main.87245d92.js.map": "/unmazinglife-frontend/static/js/main.87245d92.js.map"
+    "main.f1fa2aff.css.map": "/unmazinglife-frontend/static/css/main.f1fa2aff.css.map",
+    "main.f9c63cbf.js.map": "/unmazinglife-frontend/static/js/main.f9c63cbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.777f108c.css",
-    "static/js/main.87245d92.js"
+    "static/css/main.f1fa2aff.css",
+    "static/js/main.f9c63cbf.js"
   ]
 }
