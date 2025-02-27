@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.f1fa2aff.css",
+    "main.css": "/unmazinglife-frontend/static/css/main.657d678a.css",
     "main.js": "/unmazinglife-frontend/static/js/main.f9c63cbf.js",
+    "static/media/blog_hero_background.jpg": "/unmazinglife-frontend/static/media/blog_hero_background.9f0b892020efcd279cfd.jpg",
     "static/media/iPhone_img_2.png": "/unmazinglife-frontend/static/media/iPhone_img_2.cc98dead41b7eb6a5926.png",
     "static/media/video_img_1.jpg": "/unmazinglife-frontend/static/media/video_img_1.283acdf84b791394ac03.jpg",
     "static/media/hero_background-1.jpg": "/unmazinglife-frontend/static/media/hero_background-1.b228cd1b540cc6e364de.jpg",
@@ -32,11 +33,11 @@
     "static/media/icon_btn_play.svg": "/unmazinglife-frontend/static/media/icon_btn_play.7ed7bea183143aac32bd9834c62e1c92.svg",
     "static/media/icon_plus.svg": "/unmazinglife-frontend/static/media/icon_plus.7727430098cc7399d748920a15a186df.svg",
     "static/media/icon_minus.svg": "/unmazinglife-frontend/static/media/icon_minus.37d597b757f2784b31f6973a675fb78e.svg",
-    "main.f1fa2aff.css.map": "/unmazinglife-frontend/static/css/main.f1fa2aff.css.map",
+    "main.657d678a.css.map": "/unmazinglife-frontend/static/css/main.657d678a.css.map",
     "main.f9c63cbf.js.map": "/unmazinglife-frontend/static/js/main.f9c63cbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1fa2aff.css",
+    "static/css/main.657d678a.css",
     "static/js/main.f9c63cbf.js"
   ]
 }
