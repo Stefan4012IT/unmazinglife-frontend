@@ -1,0 +1,15 @@
+@import 'base/base';
+@import 'base/reset';
+@import 'base/layout';
+
+@import 'pages/home';
+@import 'pages/blogPage';
+
+
+@import 'components/header';
+@import 'components/buttons';
+@import 'components/accordion';
+@import 'components/recentPosts';
+@import 'components/contactForm';
+@import 'components/footer';
+@import 'components/subscription';
