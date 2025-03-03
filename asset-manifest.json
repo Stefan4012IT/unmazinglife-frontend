@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/unmazinglife-frontend/static/css/main.ee1e2e26.css",
-    "main.js": "/unmazinglife-frontend/static/js/main.042ec358.js",
+    "main.js": "/unmazinglife-frontend/static/js/main.e35f4736.js",
     "static/media/living-authentically.jpg": "/unmazinglife-frontend/static/media/living-authentically.70a366bc2ad43602c1f0.jpg",
     "static/media/blog_hero_background.jpg": "/unmazinglife-frontend/static/media/blog_hero_background.9f0b892020efcd279cfd.jpg",
     "static/media/iPhone_img_2.png": "/unmazinglife-frontend/static/media/iPhone_img_2.cc98dead41b7eb6a5926.png",
@@ -39,10 +39,10 @@
     "static/media/icon_plus.svg": "/unmazinglife-frontend/static/media/icon_plus.7727430098cc7399d748920a15a186df.svg",
     "static/media/icon_minus.svg": "/unmazinglife-frontend/static/media/icon_minus.37d597b757f2784b31f6973a675fb78e.svg",
     "main.ee1e2e26.css.map": "/unmazinglife-frontend/static/css/main.ee1e2e26.css.map",
-    "main.042ec358.js.map": "/unmazinglife-frontend/static/js/main.042ec358.js.map"
+    "main.e35f4736.js.map": "/unmazinglife-frontend/static/js/main.e35f4736.js.map"
   },
   "entrypoints": [
     "static/css/main.ee1e2e26.css",
-    "static/js/main.042ec358.js"
+    "static/js/main.e35f4736.js"
   ]
 }
