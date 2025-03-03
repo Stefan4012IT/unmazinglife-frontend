@@ -1,8 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/autoplay";
 import slide_1 from '../../assets/slides/choosing-over-chasing.jpg';
 import slide_2 from '../../assets/slides/happiness-vs-joy.jpg';
 import slide_3 from '../../assets/slides/embracing-change.jpg';
@@ -35,7 +36,7 @@ const BookSlider = () => {
   return (
     <>
         <Swiper
-            modules={[Navigation]}
+            modules={[Autoplay, Navigation]}
             navigation={{
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -44,6 +45,10 @@ const BookSlider = () => {
             slidesPerView={1}
             loop={true}
             grabCursor={true}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
             >
             {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
@@ -54,11 +59,12 @@ const BookSlider = () => {
                 </div>
                 </SwiperSlide>
             ))}
-        </Swiper>
-
-        {/* Buttons for navigation */}
+            {/* Buttons for navigation */}
         <button className="swiper-button-prev">‹</button>
         <button className="swiper-button-next">›</button>
+        </Swiper>
+
+        
     </>
  
   );
