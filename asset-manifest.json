@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.ee1e2e26.css",
-    "main.js": "/unmazinglife-frontend/static/js/main.e35f4736.js",
+    "main.css": "/unmazinglife-frontend/static/css/main.95faa5b4.css",
+    "main.js": "/unmazinglife-frontend/static/js/main.07e6a735.js",
+    "static/media/book-landing-hero-ai.jpg": "/unmazinglife-frontend/static/media/book-landing-hero-ai.c8893c09277659a6e43d.jpg",
     "static/media/living-authentically.jpg": "/unmazinglife-frontend/static/media/living-authentically.70a366bc2ad43602c1f0.jpg",
     "static/media/blog_hero_background.jpg": "/unmazinglife-frontend/static/media/blog_hero_background.9f0b892020efcd279cfd.jpg",
     "static/media/iPhone_img_2.png": "/unmazinglife-frontend/static/media/iPhone_img_2.cc98dead41b7eb6a5926.png",
     "static/media/happiness-vs-joy.jpg": "/unmazinglife-frontend/static/media/happiness-vs-joy.1c362defbbde2aa002a1.jpg",
     "static/media/choosing-over-chasing.jpg": "/unmazinglife-frontend/static/media/choosing-over-chasing.0cfaa9beeac9a0c90d04.jpg",
     "static/media/embracing-change.jpg": "/unmazinglife-frontend/static/media/embracing-change.85df1c8ec814c47aa2a6.jpg",
-    "static/media/plumb-tree.jpg": "/unmazinglife-frontend/static/media/plumb-tree.a38d752ab6e317e39f0e.jpg",
     "static/media/video_img_1.jpg": "/unmazinglife-frontend/static/media/video_img_1.283acdf84b791394ac03.jpg",
     "static/media/hero_background-1.jpg": "/unmazinglife-frontend/static/media/hero_background-1.b228cd1b540cc6e364de.jpg",
     "static/media/content_img_1of4.jpg": "/unmazinglife-frontend/static/media/content_img_1of4.de3eb360fd1912d22320.jpg",
@@ -38,11 +38,11 @@
     "static/media/icon_btn_play.svg": "/unmazinglife-frontend/static/media/icon_btn_play.7ed7bea183143aac32bd9834c62e1c92.svg",
     "static/media/icon_plus.svg": "/unmazinglife-frontend/static/media/icon_plus.7727430098cc7399d748920a15a186df.svg",
     "static/media/icon_minus.svg": "/unmazinglife-frontend/static/media/icon_minus.37d597b757f2784b31f6973a675fb78e.svg",
-    "main.ee1e2e26.css.map": "/unmazinglife-frontend/static/css/main.ee1e2e26.css.map",
-    "main.e35f4736.js.map": "/unmazinglife-frontend/static/js/main.e35f4736.js.map"
+    "main.95faa5b4.css.map": "/unmazinglife-frontend/static/css/main.95faa5b4.css.map",
+    "main.07e6a735.js.map": "/unmazinglife-frontend/static/js/main.07e6a735.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee1e2e26.css",
-    "static/js/main.e35f4736.js"
+    "static/css/main.95faa5b4.css",
+    "static/js/main.07e6a735.js"
   ]
 }
