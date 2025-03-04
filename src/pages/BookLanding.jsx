@@ -5,6 +5,7 @@ import Header from '../components/Header/Header'
 import BtnPrime from '../components/Buttons/BtnPrime';
 import BookSlider from '../components/Sliders/BookSlider';
 import img_1 from '../assets/book/book_sektion_1.png';
+import img_2 from '../assets/book/aboutAutor_book.jpg';
 
 const BookLanding = () => {
 
@@ -77,8 +78,20 @@ const BookLanding = () => {
         {/* SECTION-3 --- pocetak */}
         <div className="book-section-3">
           <div className="container">
-            <div className="wrapper">
-              
+            <div className="book-section-3--content-box wrapper">
+                <div className='img_box' data-aos="zoom-in">
+                  <img className='' src={img_2} alt='img_phone' />
+                </div>
+
+                <div className='text-content-box' data-aos="fade-left">
+                  <div className="heading">
+                    <span className='subtitle'>About the Author</span>
+                    <h2>Meet J.P. Taylor</h2>
+                  </div>
+                  <p>J.P. Taylor is a passionate advocate for self-discovery, resilience, and authentic living. With a background in personal transformation and life coaching, she has dedicated her career to helping individuals break free from limiting beliefs and step into their full potential. Through years of research, mentorship, and real-life experiences, J.P. has developed a unique approach to navigating life’s complexities—one that blends mindset shifts, emotional intelligence, and actionable strategies for lasting fulfillment.</p>
+                  <p>Her journey into self-growth began with a personal awakening—a realization that life should not be dictated by societal norms but by deeply rooted values and individual purpose. Through her writing, coaching, and speaking engagements, she empowers others to redefine success on their terms, embrace change with confidence, and cultivate a life filled with joy, meaning, and self-ownership.</p>
+                  <p>As the author of Unmazing Life, J.P. Taylor offers a fresh perspective on breaking free from the traditional chase for happiness and instead choosing a path that aligns with authenticity and true fulfillment.</p>
+                </div>
             </div>
           </div>
         </div>

@@ -202,3 +202,28 @@
         margin: auto;
     }
 }
+
+.book-section-3 {
+    position: relative;
+    padding: 70px 0;
+    width: 100%;
+    
+
+    @media only screen and (max-width: 992px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--content-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+}
