@@ -3,7 +3,7 @@
     //top: var(--visina-headera);
     height: calc(100dvh);
     width: 100%;
-    background-image: url(../../assets/book-landing-hero-ai.jpg);
+    background-image: url(../../assets/book/book-landing-hero-ai.jpg);
     background-position: 50% var(--visina-headera);
     background-size: cover;
     background-repeat: no-repeat;
@@ -146,5 +146,59 @@
             }
          }
         }
+        .img-box-container {
+            position: relative;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media only screen and (max-width: 992px) {
+                width: 100%;
+                min-height: 950px;
+                display: flex;
+                justify-content: center;
+            }
+
+            @media only screen and (max-width: 600px) {
+                min-height: 800px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                min-height: 600px;
+            }
+
+            &--img {
+                width: auto;
+                height: 650px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+
+}
+
+.book-section-2 {
+    position: relative;
+    width: 100%;
+    margin: 70px 0;
+
+    @media only screen and (max-width: 1400px) {
+        justify-content: center;
+    }
+
+    @media only screen and (max-width: 992px) {
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .slider {
+        position: relative;
+        width: 100%;
+        margin: auto;
     }
 }

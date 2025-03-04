@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import Header from '../components/Header/Header'
 import BtnPrime from '../components/Buttons/BtnPrime';
 import BookSlider from '../components/Sliders/BookSlider';
+import img_1 from '../assets/book/book_sektion_1.png';
 
 const BookLanding = () => {
 
@@ -53,19 +54,9 @@ const BookLanding = () => {
               </div>
               
               
-              {/* <div className='img-box-container' data-aos="zoom-in">
-                <div className="img-group-1">
-                  <img className='logoHeader img_1' src={img_1} alt='img_1' />
-                </div>
-
-                <div className="img-group-2">
-                  <img className='logoHeader img_3' src={img_3} alt='img_3' />
-                  <img className='logoHeader img_2' src={img_2} alt='img_2' />
-
-                  <img className='logoHeader img_4' src={img_4} alt='img_4' />
-                </div>
-
-              </div> */}
+              <div className='img-box-container' data-aos="zoom-in">
+                  <img className='img-box-container--img img_1' src={img_1} alt='img_1' />
+              </div>
             </div>
           </div>
         </div>
@@ -82,6 +73,16 @@ const BookLanding = () => {
             </div>
         </div>
         {/* SECTION-2 --- kraj */}
+
+        {/* SECTION-3 --- pocetak */}
+        <div className="book-section-3">
+          <div className="container">
+            <div className="wrapper">
+              
+            </div>
+          </div>
+        </div>
+        {/* SECTION-3 --- kraj */}
     </>
     
   )
