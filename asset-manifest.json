@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.951e37ac.css",
-    "main.js": "/unmazinglife-frontend/static/js/main.93f0faac.js",
+    "main.css": "/unmazinglife-frontend/static/css/main.1eee4690.css",
+    "main.js": "/unmazinglife-frontend/static/js/main.f03022a7.js",
     "static/media/book-landing-hero-ai.jpg": "/unmazinglife-frontend/static/media/book-landing-hero-ai.c8893c09277659a6e43d.jpg",
     "static/media/living-authentically.jpg": "/unmazinglife-frontend/static/media/living-authentically.70a366bc2ad43602c1f0.jpg",
     "static/media/book_sektion_1.png": "/unmazinglife-frontend/static/media/book_sektion_1.16f98972c34fd1edc368.png",
@@ -10,6 +10,7 @@
     "static/media/happiness-vs-joy.jpg": "/unmazinglife-frontend/static/media/happiness-vs-joy.1c362defbbde2aa002a1.jpg",
     "static/media/choosing-over-chasing.jpg": "/unmazinglife-frontend/static/media/choosing-over-chasing.0cfaa9beeac9a0c90d04.jpg",
     "static/media/embracing-change.jpg": "/unmazinglife-frontend/static/media/embracing-change.85df1c8ec814c47aa2a6.jpg",
+    "static/media/aboutAutor_book.jpg": "/unmazinglife-frontend/static/media/aboutAutor_book.4408605a32cb28994b32.jpg",
     "static/media/video_img_1.jpg": "/unmazinglife-frontend/static/media/video_img_1.283acdf84b791394ac03.jpg",
     "static/media/hero_background-1.jpg": "/unmazinglife-frontend/static/media/hero_background-1.b228cd1b540cc6e364de.jpg",
     "static/media/content_img_1of4.jpg": "/unmazinglife-frontend/static/media/content_img_1of4.de3eb360fd1912d22320.jpg",
@@ -39,11 +40,11 @@
     "static/media/icon_btn_play.svg": "/unmazinglife-frontend/static/media/icon_btn_play.7ed7bea183143aac32bd9834c62e1c92.svg",
     "static/media/icon_plus.svg": "/unmazinglife-frontend/static/media/icon_plus.7727430098cc7399d748920a15a186df.svg",
     "static/media/icon_minus.svg": "/unmazinglife-frontend/static/media/icon_minus.37d597b757f2784b31f6973a675fb78e.svg",
-    "main.951e37ac.css.map": "/unmazinglife-frontend/static/css/main.951e37ac.css.map",
-    "main.93f0faac.js.map": "/unmazinglife-frontend/static/js/main.93f0faac.js.map"
+    "main.1eee4690.css.map": "/unmazinglife-frontend/static/css/main.1eee4690.css.map",
+    "main.f03022a7.js.map": "/unmazinglife-frontend/static/js/main.f03022a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.951e37ac.css",
-    "static/js/main.93f0faac.js"
+    "static/css/main.1eee4690.css",
+    "static/js/main.f03022a7.js"
   ]
 }
