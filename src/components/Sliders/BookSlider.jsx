@@ -45,10 +45,10 @@ const BookSlider = () => {
             slidesPerView={1}
             loop={true}
             grabCursor={true}
-            // autoplay={{
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            //   }}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
             >
             {slides.map((slide, index) => (
                 <SwiperSlide key={index}>

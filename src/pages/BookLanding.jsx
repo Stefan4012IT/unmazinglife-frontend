@@ -88,9 +88,12 @@ const BookLanding = () => {
                     <span className='subtitle'>About the Author</span>
                     <h2>Meet J.P. Taylor</h2>
                   </div>
-                  <p>J.P. Taylor is a passionate advocate for self-discovery, resilience, and authentic living. With a background in personal transformation and life coaching, she has dedicated her career to helping individuals break free from limiting beliefs and step into their full potential. Through years of research, mentorship, and real-life experiences, J.P. has developed a unique approach to navigating life’s complexities—one that blends mindset shifts, emotional intelligence, and actionable strategies for lasting fulfillment.</p>
-                  <p>Her journey into self-growth began with a personal awakening—a realization that life should not be dictated by societal norms but by deeply rooted values and individual purpose. Through her writing, coaching, and speaking engagements, she empowers others to redefine success on their terms, embrace change with confidence, and cultivate a life filled with joy, meaning, and self-ownership.</p>
-                  <p>As the author of Unmazing Life, J.P. Taylor offers a fresh perspective on breaking free from the traditional chase for happiness and instead choosing a path that aligns with authenticity and true fulfillment.</p>
+                  <div className="text">
+                    <p>J.P. Taylor is a passionate advocate for self-discovery, resilience, and authentic living. With a background in personal transformation and life coaching, she has dedicated her career to helping individuals break free from limiting beliefs and step into their full potential. Through years of research, mentorship, and real-life experiences, J.P. has developed a unique approach to navigating life’s complexities—one that blends mindset shifts, emotional intelligence, and actionable strategies for lasting fulfillment.</p>
+                    <p>Her journey into self-growth began with a personal awakening—a realization that life should not be dictated by societal norms but by deeply rooted values and individual purpose. Through her writing, coaching, and speaking engagements, she empowers others to redefine success on their terms, embrace change with confidence, and cultivate a life filled with joy, meaning, and self-ownership.</p>
+                    <p>As the author of Unmazing Life, J.P. Taylor offers a fresh perspective on breaking free from the traditional chase for happiness and instead choosing a path that aligns with authenticity and true fulfillment.</p>
+                  </div>
+
                 </div>
             </div>
           </div>

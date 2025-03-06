@@ -46,6 +46,10 @@
             row-gap: 50px;
             text-align: left;
 
+            @media only screen and (max-width: 1400px) {
+                row-gap: 40px;
+            }
+
             h1, p, .subtitle {
                 color: #FFF;
             }
@@ -91,10 +95,7 @@
         flex-direction: column;
         align-items: center;
     }
-
-    @media only screen and (max-width: 776px) {
-        margin-bottom: 100%;
-    }
+    
 
     .main-box {
         display: flex;
@@ -153,25 +154,33 @@
             align-items: center;
             justify-content: center;
 
+            
+
             @media only screen and (max-width: 992px) {
                 width: 100%;
-                min-height: 950px;
                 display: flex;
                 justify-content: center;
             }
 
-            @media only screen and (max-width: 600px) {
-                min-height: 800px;
-            }
-
-            @media only screen and (max-width: 600px) {
-                min-height: 600px;
-            }
 
             &--img {
                 width: auto;
                 height: 650px;
                 border-radius: 20px;
+
+                @media only screen and (max-width: 1200px) {
+                    height: 500px;
+                }
+
+                @media only screen and (max-width: 992px) {
+                    height: auto;
+                    width: 75%;
+                }
+
+                @media only screen and (max-width: 776px) {
+                    height: auto;
+                    width: 100%;
+                }
             }
         }
     }
@@ -221,9 +230,41 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        
 
         @media only screen and (max-width: 992px) {
             flex-direction: column;
+        }
+
+        .img_box {
+            width: 50%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            img {
+                height: 520px;
+                border-radius: 20px;
+            }
+        }
+
+        .text-content-box {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 50px;
+
+            .heading {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+            }
         }
     }
 }
