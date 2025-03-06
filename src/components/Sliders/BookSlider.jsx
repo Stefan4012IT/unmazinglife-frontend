@@ -37,10 +37,10 @@ const BookSlider = () => {
     <>
         <Swiper
             modules={[Autoplay, Navigation]}
-            navigation={{
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            }}
+            // navigation={{
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // }}
             autoHeight={true}
             spaceBetween={50}
             slidesPerView={1}
@@ -53,10 +53,10 @@ const BookSlider = () => {
                 
               },
             }}  
-            // autoplay={{
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            //   }}
+            autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
             >
             {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
