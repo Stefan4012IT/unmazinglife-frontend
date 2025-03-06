@@ -41,14 +41,22 @@ const BookSlider = () => {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             }}
+            autoHeight={true}
             spaceBetween={50}
             slidesPerView={1}
             loop={true}
             grabCursor={true}
-            autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+            breakpoints={{
+              992: {
+                slidesPerView: 2, // Ako ovde nije 1, menja širinu slajda
+                spaceBetween: 50,  // Ovo dodaje margin-right: 50px
+                
+              },
+            }}  
+            // autoplay={{
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            //   }}
             >
             {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
