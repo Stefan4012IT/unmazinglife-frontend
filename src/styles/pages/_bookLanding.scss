@@ -54,6 +54,12 @@
                 color: #FFF;
             }
 
+            h1 {
+                @media only screen and (max-width: 992px) {
+                    font-size: 32px;
+                }
+            }
+
             .subtitle {
                 padding-bottom: 20px;
             }
