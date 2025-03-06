@@ -43,20 +43,21 @@ const BookSlider = () => {
             // }}
             autoHeight={true}
             spaceBetween={50}
-            slidesPerView={1}
+            slidesPerView={"auto"}
             loop={true}
             grabCursor={true}
             breakpoints={{
               992: {
-                slidesPerView: 2, // Ako ovde nije 1, menja širinu slajda
+                slidesPerView: 1, // Ako ovde nije 1, menja širinu slajda
                 spaceBetween: 50,  // Ovo dodaje margin-right: 50px
                 
               },
+              0:{slidesPerView: 1.9, spaceBetween: 0,lazy: {loadPrevNext: true, loadPrevNextAmount: 1}, allowTouchMove: true,}
             }}  
-            autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-              }}
+            // autoplay={{
+            //     delay: 3000,
+            //     disableOnInteraction: false,
+            //   }}
             >
             {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
