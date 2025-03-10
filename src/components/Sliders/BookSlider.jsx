@@ -41,7 +41,6 @@ const BookSlider = () => {
             //     nextEl: ".swiper-button-next",
             //     prevEl: ".swiper-button-prev",
             // }}
-            autoHeight={true}
             spaceBetween={50}
             slidesPerView={"auto"}
             loop={true}
@@ -52,7 +51,7 @@ const BookSlider = () => {
                 spaceBetween: 50,  // Ovo dodaje margin-right: 50px
                 
               },
-              0:{slidesPerView: 1.9, spaceBetween: 0,lazy: {loadPrevNext: true, loadPrevNextAmount: 1}, allowTouchMove: true,}
+              0:{slidesPerView: 1, spaceBetween: 0,lazy: {loadPrevNext: true, loadPrevNextAmount: 1}, allowTouchMove: true,}
             }}  
             // autoplay={{
             //     delay: 3000,
@@ -65,6 +64,7 @@ const BookSlider = () => {
                     <img src={slide.image} alt={slide.title} className="slide-image" />
                     <h2>{slide.title}</h2>
                     <p>{slide.description}</p>
+                    <div className="slider-overlay"></div>
                 </div>
                 </SwiperSlide>
             ))}

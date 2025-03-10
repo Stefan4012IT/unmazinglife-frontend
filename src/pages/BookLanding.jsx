@@ -65,13 +65,9 @@ const BookLanding = () => {
 
         {/* SECTION-2 --- pocetak */}
         <div className="book-section-2">
-            <div className="container">
-                <div className="wrapper">
-                    <div className="slider">
-                        <BookSlider />
-                    </div>
-                </div>
-            </div>
+          <div className="slider">
+              <BookSlider />
+          </div>
         </div>
         {/* SECTION-2 --- kraj */}
 
