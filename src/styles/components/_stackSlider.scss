@@ -1,0 +1,60 @@
+.book-section-4 {
+
+    .slider {
+        max-width: 1600px;
+        margin: 0 auto;
+
+        @media only screen and (max-width: 1600px) {
+            padding: 0 20px;
+        }
+    }
+
+    .swiper {
+        width: 50%;
+        height: 500px;
+      }
+      
+      .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+      }
+      
+      .slide-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .slide-image {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+      
+      h2 {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        font-size: 16px;
+        color: #666;
+        max-width: 400px;
+        line-height: 1.6;
+      }
+      
+
+  }
+
+  
+  

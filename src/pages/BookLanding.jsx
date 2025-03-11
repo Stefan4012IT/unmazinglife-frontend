@@ -6,6 +6,7 @@ import BtnPrime from '../components/Buttons/BtnPrime';
 import BookSlider from '../components/Sliders/BookSlider';
 import img_1 from '../assets/book/book_sektion_1.png';
 import img_2 from '../assets/book/aboutAutor_book.jpg';
+import StackSlider from '../components/Sliders/StackSlider';
 
 const BookLanding = () => {
 
@@ -95,6 +96,15 @@ const BookLanding = () => {
           </div>
         </div>
         {/* SECTION-3 --- kraj */}
+
+        {/* SECTION-4 --- pocetak */}
+        <div className="book-section-4">
+          <div className="slider">
+            <StackSlider />
+          </div>
+          
+        </div>
+        {/* SECTION-4 --- kraj */}
     </>
     
   )
