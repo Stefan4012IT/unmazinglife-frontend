@@ -99,10 +99,43 @@ const BookLanding = () => {
 
         {/* SECTION-4 --- pocetak */}
         <div className="book-section-4">
-          <div className="slider">
-            <StackSlider />
+          <div className="container">
+            <div className="content-box wrapper">
+              <div className='text-content-box' data-aos="fade-left">
+                      <div className="heading">
+                        <span className='subtitle'>Content</span>
+                        <h2>What You’ll Gain from Unmazing Life</h2>
+                      </div>
+                      <div className="text">
+                      <p>Life isn’t about running towards an elusive finish line—it’s about making conscious choices that align with who you truly are. Unmazing Life challenges the traditional idea of success and happiness, offering a new way of thinking that prioritizes fulfillment, authenticity, and self-discovery.</p>
+
+                      
+                      
+                      
+                      </div>
+                      <div className="list-items">
+                          <p>In this book, you’ll explore powerful mindset shifts that will help you:</p>
+                          <div className="like-list">
+                            <p>🔹 Stop chasing happiness and start choosing a life that fulfills you.</p>
+                            <p>🔹 Distinguish between fleeting happiness and lasting joy—and learn how to cultivate both.</p>
+                            <p>🔹 Build resilience and develop an inner compass that guides you through challenges.</p>
+                            <p>🔹 Let go of societal pressures and start living on your own terms.</p>
+                            <p>🔹 Create daily habits that transform the way you experience life.</p>
+                          </div>
+                          
+                        
+                        <p>💡 Each slide to the right represents a key transformation that Unmazing Life will guide you through. Swipe through and see what resonates with you.</p>
+                      </div>
+                      
+                      
+
+              </div>
+              <div className="slider">
+                <StackSlider />
+              </div>
+            </div>
+            
           </div>
-          
         </div>
         {/* SECTION-4 --- kraj */}
     </>

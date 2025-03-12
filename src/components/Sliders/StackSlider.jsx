@@ -34,27 +34,26 @@ const slides = [
 
 const StackSlider = () => {
   return (
-    <div className="book-section-2">
-      <div className="container">
-        <div className="wrapper">
-          <Swiper
-            direction={'vertical'}
-            effect="creative"
-            grabCursor={true}
-            loop={true}
-            modules={[EffectCreative]}
-            creativeEffect={{
-              prev: {
-                shadow: true,
-                translate: ["-120%", -500, 0], // Pomeranje prethodne kartice
-              },
-              next: {
-                translate: ["-120%", -500, 0], // Pomeranje sledeće kartice
-              },
-            }}
-            slidesPerView={1.2}
-            spaceBetween={0}
-          >
+              <Swiper
+                direction={'vertical'}
+                effect="creative"
+                grabCursor={true}
+                loop={true}
+                modules={[EffectCreative]}
+                slidesPerView={1.2} // Slightly overlapping slides
+                spaceBetween={0} // No space between slides
+                creativeEffect={{
+                  prev: {
+                    shadow: true,
+                    translate: [0, "-100%", -300], // Moves up
+                    scale: 0.9, // Makes previous slide slightly smaller
+                  },
+                  next: {
+                    translate: [0, "100%", -300], // Moves down
+                    scale: 1.1, // Makes next slide slightly larger
+                  },
+                }}
+              >
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
                 <div className="slide-content">
@@ -65,9 +64,6 @@ const StackSlider = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
-      </div>
-    </div>
   );
 };
 

@@ -68,9 +68,6 @@ const BookSlider = () => {
                 </div>
                 </SwiperSlide>
             ))}
-            {/* Buttons for navigation */}
-        {/* <button className="swiper-button-prev">‹</button>
-        <button className="swiper-button-next">›</button> */}
         </Swiper>
 
         
