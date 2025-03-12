@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCreative } from "swiper/modules";
+import { EffectCreative, EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-creative";
 
@@ -36,22 +36,17 @@ const StackSlider = () => {
   return (
               <Swiper
                 direction={'vertical'}
-                effect="creative"
+                effect={'coverflow'}
+                modules={[EffectCoverflow]}
                 grabCursor={true}
-                loop={true}
-                modules={[EffectCreative]}
-                slidesPerView={1.2} // Slightly overlapping slides
-                spaceBetween={0} // No space between slides
-                creativeEffect={{
-                  prev: {
-                    shadow: true,
-                    translate: [0, "-100%", -300], // Moves up
-                    scale: 0.9, // Makes previous slide slightly smaller
-                  },
-                  next: {
-                    translate: [0, "100%", -300], // Moves down
-                    scale: 1.1, // Makes next slide slightly larger
-                  },
+                centeredSlides={true}
+                slidesPerView={'auto'}
+                coverflowEffect={{
+                  rotate: 50,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 1,
+                  slideShadows: true,
                 }}
               >
             {slides.map((slide, index) => (
