@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.e935a85b.css",
-    "main.js": "/unmazinglife-frontend/static/js/main.d13da185.js",
+    "main.css": "/unmazinglife-frontend/static/css/main.255813a0.css",
+    "main.js": "/unmazinglife-frontend/static/js/main.0cb90af4.js",
     "static/media/book-landing-hero-ai.jpg": "/unmazinglife-frontend/static/media/book-landing-hero-ai.c8893c09277659a6e43d.jpg",
     "static/media/living-authentically.jpg": "/unmazinglife-frontend/static/media/living-authentically.70a366bc2ad43602c1f0.jpg",
     "static/media/book_sektion_1.png": "/unmazinglife-frontend/static/media/book_sektion_1.16f98972c34fd1edc368.png",
@@ -40,11 +40,11 @@
     "static/media/icon_btn_play.svg": "/unmazinglife-frontend/static/media/icon_btn_play.7ed7bea183143aac32bd9834c62e1c92.svg",
     "static/media/icon_plus.svg": "/unmazinglife-frontend/static/media/icon_plus.7727430098cc7399d748920a15a186df.svg",
     "static/media/icon_minus.svg": "/unmazinglife-frontend/static/media/icon_minus.37d597b757f2784b31f6973a675fb78e.svg",
-    "main.e935a85b.css.map": "/unmazinglife-frontend/static/css/main.e935a85b.css.map",
-    "main.d13da185.js.map": "/unmazinglife-frontend/static/js/main.d13da185.js.map"
+    "main.255813a0.css.map": "/unmazinglife-frontend/static/css/main.255813a0.css.map",
+    "main.0cb90af4.js.map": "/unmazinglife-frontend/static/js/main.0cb90af4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e935a85b.css",
-    "static/js/main.d13da185.js"
+    "static/css/main.255813a0.css",
+    "static/js/main.0cb90af4.js"
   ]
 }
