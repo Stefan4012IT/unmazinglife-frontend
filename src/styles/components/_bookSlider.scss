@@ -7,26 +7,27 @@
     @media only screen and (max-width: 1600px) {
         padding: 0 20px;
     }
+    @media only screen and (max-width: 1600px) {
+      width: 100%;
+    }
 
 .swiper {
 
   .swiper-wrapper {
 
+      transform: translate3d(0, 0, 0);
+
       .swiper-slide {
         
         
         @media only screen and (max-width: 992px) {
-          width: fit-content !important;
+          width: 100% !important;
           max-width: 100vw !important;
         }
 
-        &:nth-child(2n) {
-          
-
-          @media only screen and (max-width: 992px) {
-            width: fit-content !important;
-            max-width: 100vw !important;
-          }
+        @media only screen and (max-width: 776px) {
+          width: 100% !important;
+          max-width: 100vw !important;
         }
       }
       

@@ -53,7 +53,6 @@ const ParallaxSlider = () => {
               style={{
                 backgroundImage: `url(${background_1})`, // Correct way to use dynamic image
                 backgroundSize: "cover",
-                backgroundPosition: "right",
               }}
               data-swiper-parallax="-23%"
             ></div>

@@ -317,6 +317,14 @@
         flex-direction: row;
         align-items: center;
 
+        @media only screen and (max-width: 992px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            row-gap: 50px;
+        }
+
         .text-content-box {
             width: 50%;
             display: flex;
@@ -324,7 +332,6 @@
             row-gap: 50px;
             
             @media only screen and (max-width: 992px) {
-                order: 1;
                 width: 100%;
                 justify-content: center;
                 text-align: center;
