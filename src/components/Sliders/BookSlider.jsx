@@ -9,6 +9,7 @@ import slide_2 from '../../assets/slides/happiness-vs-joy.jpg';
 import slide_3 from '../../assets/slides/embracing-change.jpg';
 import slide_4 from '../../assets/slides/living-authentically.jpg';
 
+
 const slides = [
   {
     image: slide_1,

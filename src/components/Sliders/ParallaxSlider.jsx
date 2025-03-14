@@ -8,6 +8,7 @@ import slide_1 from '../../assets/slides/choosing-over-chasing.jpg';
 import slide_2 from '../../assets/slides/happiness-vs-joy.jpg';
 import slide_3 from '../../assets/slides/embracing-change.jpg';
 import slide_4 from '../../assets/slides/living-authentically.jpg';
+import background_1 from '../../assets/book/parallaxSliderCover.jpg'
 
 const slides = [
   {
@@ -50,9 +51,9 @@ const ParallaxSlider = () => {
               slot="container-start"
               className="parallax-bg"
               style={{
-                backgroundImage: `url(${slide_1})`, // Correct way to use dynamic image
+                backgroundImage: `url(${background_1})`, // Correct way to use dynamic image
                 backgroundSize: "cover",
-                backgroundPosition: "center",
+                backgroundPosition: "right",
               }}
               data-swiper-parallax="-23%"
             ></div>
