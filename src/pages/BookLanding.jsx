@@ -25,7 +25,7 @@ const BookLanding = () => {
             <div className="opacity"></div>
             <div className="container">
                 <div className="book-main-box wrapper">
-                <div className='book-main-box--content' data-aos="fade-right">
+                <div className='book-main-box--content' data-aos="fade-down">
                     <div className="heading">
                         <div className="subtitle">Unleash Your Potential, Redefine Your Path</div>
                         <h1>A transformative journey to personal growth and self-discovery by J.P. Taylor.</h1>
@@ -43,7 +43,7 @@ const BookLanding = () => {
           <div className="container">
             <div className="main-box wrapper">
               <div className="text-box">
-                <div className='text-box--content' data-aos="fade-down">
+                <div className='text-box--content' data-aos="fade-right">
                   <div className="heading">
                     <span className='subtitle'>About the Book</span>
                     <h2>What is <span className='mask'>Unmazing Life</span>?</h2>
@@ -101,7 +101,7 @@ const BookLanding = () => {
         <div className="book-section-4">
           <div className="container">
             <div className="content-box wrapper">
-              <div className='text-content-box' data-aos="fade-left">
+              <div className='text-content-box' data-aos="fade-right">
                       <div className="heading">
                         <span className='subtitle'>Content</span>
                         <h2>What You’ll Gain from <span className='mask'>Unmazing Life</span></h2>
@@ -130,7 +130,7 @@ const BookLanding = () => {
                       
 
               </div>
-              <div className="slider">
+              <div className="slider" data-aos="zoom-in">
                 <ParallaxSlider />
               </div>
             </div>
