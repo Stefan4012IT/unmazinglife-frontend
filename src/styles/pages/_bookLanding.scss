@@ -334,6 +334,12 @@
                 display: flex;
                 flex-direction: column;
                 row-gap: 20px;
+
+                .mask {
+                    font-size: inherit;
+                    font-weight: inherit;
+                    color: #EE1671;
+                }
             }
 
             .text {

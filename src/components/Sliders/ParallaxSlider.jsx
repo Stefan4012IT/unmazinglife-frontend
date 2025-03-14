@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCreative, EffectCoverflow } from "swiper/modules";
+import { Autoplay, Parallax } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-creative";
 
@@ -32,34 +32,50 @@ const slides = [
   },
 ];
 
-const StackSlider = () => {
+const ParallaxSlider = () => {
   return (
-              <Swiper
-                direction={'vertical'}
-                effect={'coverflow'}
-                modules={[EffectCoverflow]}
+            <Swiper
+                speed={600}
+                parallax={true}
+                loop={true}
                 grabCursor={true}
-                centeredSlides={true}
-                slidesPerView={'auto'}
-                coverflowEffect={{
-                  rotate: 50,
-                  stretch: 0,
-                  depth: 100,
-                  modifier: 1,
-                  slideShadows: true,
+                modules={[Autoplay, Parallax]}
+                className="mySwiper"
+                autoplay={{
+                  delay: 6000,
+                  disableOnInteraction: false,
                 }}
-              >
+            >
+              <div
+              slot="container-start"
+              className="parallax-bg"
+              style={{
+                backgroundImage: `url(${slide_1})`, // Correct way to use dynamic image
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+              data-swiper-parallax="-23%"
+            ></div>
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="slide-content">
-                  <img src={slide.image} alt={slide.title} className="slide-image" />
-                  <h2>{slide.title}</h2>
-                  <p>{slide.description}</p>
+                <div className="content">
+                  <h3 className="title" data-swiper-parallax="-300">
+                    {slide.title}
+                  </h3>
+                  {/* <div className="subtitle" data-swiper-parallax="-200">
+                    Subtitle
+                  </div> */}
+                  <div className="text" data-swiper-parallax="-100">
+                    <p>
+                      {slide.description}
+                    </p>
+                  </div>
                 </div>
+                
               </SwiperSlide>
             ))}
           </Swiper>
   );
 };
 
-export default StackSlider;
+export default ParallaxSlider;

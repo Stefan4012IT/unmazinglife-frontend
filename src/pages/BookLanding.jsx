@@ -6,7 +6,7 @@ import BtnPrime from '../components/Buttons/BtnPrime';
 import BookSlider from '../components/Sliders/BookSlider';
 import img_1 from '../assets/book/book_sektion_1.png';
 import img_2 from '../assets/book/aboutAutor_book.jpg';
-import StackSlider from '../components/Sliders/StackSlider';
+import ParallaxSlider from '../components/Sliders/ParallaxSlider';
 
 const BookLanding = () => {
 
@@ -104,7 +104,7 @@ const BookLanding = () => {
               <div className='text-content-box' data-aos="fade-left">
                       <div className="heading">
                         <span className='subtitle'>Content</span>
-                        <h2>What You’ll Gain from Unmazing Life</h2>
+                        <h2>What You’ll Gain from <span className='mask'>Unmazing Life</span></h2>
                       </div>
                       <div className="text">
                       <p>Life isn’t about running towards an elusive finish line—it’s about making conscious choices that align with who you truly are. Unmazing Life challenges the traditional idea of success and happiness, offering a new way of thinking that prioritizes fulfillment, authenticity, and self-discovery.</p>
@@ -131,7 +131,7 @@ const BookLanding = () => {
 
               </div>
               <div className="slider">
-                <StackSlider />
+                <ParallaxSlider />
               </div>
             </div>
             

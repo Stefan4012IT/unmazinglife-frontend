@@ -54,7 +54,7 @@ const BookSlider = () => {
               0:{slidesPerView: 1, spaceBetween: 0,lazy: {loadPrevNext: true, loadPrevNextAmount: 1}, allowTouchMove: true,}
             }}  
             autoplay={{
-                delay: 3000,
+                delay: 6000,
                 disableOnInteraction: false,
               }}
             >
