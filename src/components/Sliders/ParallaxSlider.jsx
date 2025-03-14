@@ -71,6 +71,7 @@ const ParallaxSlider = () => {
                       {slide.description}
                     </p>
                   </div>
+                  <div className="overlay"></div>
                 </div>
                 
               </SwiperSlide>
