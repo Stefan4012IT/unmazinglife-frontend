@@ -45,6 +45,7 @@ const ParallaxSlider = () => {
                 autoplay={{
                   delay: 6000,
                   disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
                 }}
             >
               <div

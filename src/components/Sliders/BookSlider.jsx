@@ -57,6 +57,7 @@ const BookSlider = () => {
             autoplay={{
                 delay: 6000,
                 disableOnInteraction: false,
+                pauseOnMouseEnter: true,
               }}
             >
             {slides.map((slide, index) => (

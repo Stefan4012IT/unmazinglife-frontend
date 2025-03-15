@@ -19,6 +19,17 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     overflow-y: hidden;
+
+    ::selection {
+      background: #EE1671; /* Roze pozadina */
+      color: #FFF; /* Beli tekst */
+    }
+    
+    /* Za Firefox (potrebno koristiti pseudo-element `::-moz-selection`) */
+    ::-moz-selection {
+      background: #EE1671;
+      color: #FFF;
+    }
   }
   
   p, a, span {
@@ -90,3 +101,16 @@ body {
       padding-right: 5px;
     }
   }
+
+  .mask {
+    font-size: inherit;
+    font-weight: inherit;
+    color: #EE1671;
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none; /* Za Safari */
+  -moz-user-select: none; /* Za Firefox */
+  -ms-user-select: none; /* Za Internet Explorer/Edge */
+}

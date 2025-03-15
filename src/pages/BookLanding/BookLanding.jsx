@@ -9,6 +9,7 @@ import img_2 from '../../assets/book/aboutAutor_book.jpg';
 import ParallaxSlider from '../../components/Sliders/ParallaxSlider';
 import AboutBookPopup from '../../components/Popups/BookLanding/AboutBookPopup';
 import TestimonialSlider from '../../components/Sliders/TestimonialSlider';
+import Footer from '../../components/Footer/Footer';
 
 const BookLanding = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -72,7 +73,7 @@ const BookLanding = () => {
 
         {/* SECTION-2 --- pocetak */}
         <div className="book-section-2">
-          <div className="slider">
+          <div className="slider no-select">
               <BookSlider />
           </div>
         </div>
@@ -136,7 +137,7 @@ const BookLanding = () => {
                       
 
               </div>
-              <div className="slider" data-aos="zoom-in">
+              <div className="slider no-select" data-aos="zoom-in">
                 <ParallaxSlider />
               </div>
             </div>
@@ -144,14 +145,43 @@ const BookLanding = () => {
           </div>
         </div>
         {/* SECTION-4 --- kraj */}
+        {/* CTA --- pocetak */}
+        <div className="book-section-cta">
+          <div className="container">
+            <div className="wrapper">
+              <div className="cta-container">
+                <div className="heading">
+                  <span className='subtitle'>Your transformation starts with a single step. Dive into Unmazing Life and unlock the mindset shifts that will redefine your path. Are you ready?</span>
+                  <h2>Enjoy the Journey, Embrace the Change</h2>
+                </div>
+                <BtnPrime text="Buy Now" />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* CTA --- kraj */}
 
         {/* SECTION-5 --- pocetak */}
         <div className="book-section-5">
-          <div className="slider">
+          <div className="container">
+            <div className="testimonials wrapper"  data-aos="fade-right">
+              <div className="heading">
+                <span className='subtitle'>Testimonials</span>
+                <h2>What Readers Are Saying</h2>
+              </div>
+              <p><span className="mask">Unmazing Life</span> is more than just a book—it’s a catalyst for change. Through its powerful insights and practical wisdom, readers have discovered a new way of thinking about happiness, success, and fulfillment. No longer trapped by outdated beliefs or societal expectations, they’ve embraced the courage to redefine their lives on their own terms.<br/><br/>
+              From shifting their mindset about achievement to overcoming deep-rooted fears and self-doubt, each person who has applied these lessons has experienced profound transformation. They’ve learned to cultivate joy instead of chasing it, to align their daily actions with their true values, and to step into the future with confidence.<br/><br/>
+              Read what others are saying about how <span className="mask">Unmazing Life</span> has empowered them to break free, embrace change, and create a life that feels truly their own.</p>
+            </div>
+          </div>
+          <div className="slider no-select">
               <TestimonialSlider />
           </div>
         </div>
         {/* SECTION-5 --- kraj */}
+
+        {/* FOOTER --- pocetak */}
+        <Footer />
     </>
     
   )

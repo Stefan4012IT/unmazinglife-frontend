@@ -48,8 +48,10 @@ const TestimonialSlider = () => {
             grabCursor={true}
             centeredSlides={true}
             spaceBetween={75}
-            pagination={{
-            clickable: true,
+            autoplay={{
+              delay: 6000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
             }}
             className="mySwiper"
             >
