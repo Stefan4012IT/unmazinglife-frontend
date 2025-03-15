@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/main.scss'; 
 import Home from './pages/Home';
-import BookLanding from './pages/BookLanding'; 
+import BookLanding from './pages/BookLanding/BookLanding'; 
 
 function App() {
   return (

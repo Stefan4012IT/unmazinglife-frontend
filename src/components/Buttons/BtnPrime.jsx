@@ -1,8 +1,8 @@
 import React from 'react'
 
-const BtnPrime = ({text}) => {
+const BtnPrime = ({text, onClick}) => {
   return (
-    <div className='btn-prime'><span>{text}</span></div>
+    <div className='btn-prime' onClick={onClick}><span>{text}</span></div>
   )
 }
 
