@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/unmazinglife-frontend/static/css/main.33738c1d.css",
-    "main.js": "/unmazinglife-frontend/static/js/main.28a2828d.js",
+    "main.css": "/unmazinglife-frontend/static/css/main.f660051c.css",
+    "main.js": "/unmazinglife-frontend/static/js/main.508dcddc.js",
     "static/media/book-landing-hero-ai.jpg": "/unmazinglife-frontend/static/media/book-landing-hero-ai.c8893c09277659a6e43d.jpg",
     "static/media/living-authentically.jpg": "/unmazinglife-frontend/static/media/living-authentically.70a366bc2ad43602c1f0.jpg",
     "static/media/book_sektion_1.png": "/unmazinglife-frontend/static/media/book_sektion_1.16f98972c34fd1edc368.png",
     "static/media/blog_hero_background.jpg": "/unmazinglife-frontend/static/media/blog_hero_background.9f0b892020efcd279cfd.jpg",
+    "static/media/aboutBook_popupImg_1.1.jpg": "/unmazinglife-frontend/static/media/aboutBook_popupImg_1.1.a1a4327768181cf94e30.jpg",
     "static/media/iPhone_img_2.png": "/unmazinglife-frontend/static/media/iPhone_img_2.cc98dead41b7eb6a5926.png",
     "static/media/happiness-vs-joy.jpg": "/unmazinglife-frontend/static/media/happiness-vs-joy.1c362defbbde2aa002a1.jpg",
     "static/media/choosing-over-chasing.jpg": "/unmazinglife-frontend/static/media/choosing-over-chasing.0cfaa9beeac9a0c90d04.jpg",
@@ -17,6 +18,10 @@
     "static/media/content_img_1of4.jpg": "/unmazinglife-frontend/static/media/content_img_1of4.de3eb360fd1912d22320.jpg",
     "static/media/iPhone_img_1.png": "/unmazinglife-frontend/static/media/iPhone_img_1.5ef23380839923c43dd4.png",
     "static/media/content_img_2of4.jpg": "/unmazinglife-frontend/static/media/content_img_2of4.ddb64a6e4ca47f71f656.jpg",
+    "static/media/profilePic-1.jpg": "/unmazinglife-frontend/static/media/profilePic-1.d435cdcdffbec02bbd79.jpg",
+    "static/media/profilePic-3.jpg": "/unmazinglife-frontend/static/media/profilePic-3.e4d630b01c33186c0ea5.jpg",
+    "static/media/profilePic-2.jpg": "/unmazinglife-frontend/static/media/profilePic-2.1baf995d07ab96fbd31a.jpg",
+    "static/media/profilePic-4.jpg": "/unmazinglife-frontend/static/media/profilePic-4.a49242a8856a9542d4ea.jpg",
     "static/media/content_img_4of4.jpg": "/unmazinglife-frontend/static/media/content_img_4of4.894304a82867ee4dbfab.jpg",
     "static/media/icon_appStore.svg": "/unmazinglife-frontend/static/media/icon_appStore.df9aba9a2571e2d0ed916dfe1e458c92.svg",
     "static/media/icon_googleStore.svg": "/unmazinglife-frontend/static/media/icon_googleStore.a7d2cfdcce2148ff1ddb79732c059bda.svg",
@@ -41,11 +46,11 @@
     "static/media/icon_btn_play.svg": "/unmazinglife-frontend/static/media/icon_btn_play.7ed7bea183143aac32bd9834c62e1c92.svg",
     "static/media/icon_plus.svg": "/unmazinglife-frontend/static/media/icon_plus.7727430098cc7399d748920a15a186df.svg",
     "static/media/icon_minus.svg": "/unmazinglife-frontend/static/media/icon_minus.37d597b757f2784b31f6973a675fb78e.svg",
-    "main.33738c1d.css.map": "/unmazinglife-frontend/static/css/main.33738c1d.css.map",
-    "main.28a2828d.js.map": "/unmazinglife-frontend/static/js/main.28a2828d.js.map"
+    "main.f660051c.css.map": "/unmazinglife-frontend/static/css/main.f660051c.css.map",
+    "main.508dcddc.js.map": "/unmazinglife-frontend/static/js/main.508dcddc.js.map"
   },
   "entrypoints": [
-    "static/css/main.33738c1d.css",
-    "static/js/main.28a2828d.js"
+    "static/css/main.f660051c.css",
+    "static/js/main.508dcddc.js"
   ]
 }
