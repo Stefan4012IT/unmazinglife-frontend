@@ -2,11 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import logoHeader from '../../assets/LogoUnmaze.svg';
 import { Link as ScrollLink } from 'react-scroll';
 import BtnPrime from '../Buttons/BtnPrime';
+import { useLocation } from "react-router-dom";
+import NavLinks from './NavLinks';
 
 const DesktopHeader = () => {
   const headerRef = useRef(null);
-
-
+  const location = useLocation();
+  const isBookLanding = location.pathname.includes("book-landing");
 
   useEffect(() => {
     if (headerRef.current) {
@@ -32,15 +34,7 @@ const DesktopHeader = () => {
         <div className="logo-box">
           <img className='logoHeader' src={logoHeader} alt='logo unmaze' onClick={scrollToTop} />
         </div>
-        <div className='nav-links'>
-          <ScrollLink to="about" smooth={true} duration={500} offset={-70}>About</ScrollLink>
-          <ScrollLink to="about" smooth={true} duration={500} offset={-70}>Features</ScrollLink>
-          <ScrollLink to="about" smooth={true} duration={500} offset={-70}>F&Q</ScrollLink>
-          <ScrollLink to="about" smooth={true} duration={500} offset={-70}>Blog</ScrollLink>
-          <ScrollLink to="about" smooth={true} duration={500} offset={-70}>Contact</ScrollLink>
-          <BtnPrime text="Sign Up"/>
-          <BtnPrime text="Log In"/>
-        </div>
+        <NavLinks />
       </div>
     </div>
   );

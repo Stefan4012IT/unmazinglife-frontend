@@ -45,7 +45,7 @@ const BookLanding = () => {
         {/* HERO-SECTION --- kraj */}
 
         {/* SECTION-1 --- pocetak */}
-        <div className='book-section-1'>
+        <div id='about' className='book-section-1'>
           <div className="container">
             <div className="main-box wrapper">
               <div className="text-box">
@@ -80,7 +80,7 @@ const BookLanding = () => {
         {/* SECTION-2 --- kraj */}
 
         {/* SECTION-3 --- pocetak */}
-        <div className="book-section-3">
+        <div id='author' className="book-section-3">
           <div className="container">
             <div className="book-section-3--content-box wrapper">
                 <div className='img_box' data-aos="zoom-in">
@@ -105,7 +105,7 @@ const BookLanding = () => {
         {/* SECTION-3 --- kraj */}
 
         {/* SECTION-4 --- pocetak */}
-        <div className="book-section-4">
+        <div id='content' className="book-section-4">
           <div className="container">
             <div className="content-box wrapper">
               <div className='text-content-box' data-aos="fade-right">
@@ -146,13 +146,13 @@ const BookLanding = () => {
         </div>
         {/* SECTION-4 --- kraj */}
         {/* CTA --- pocetak */}
-        <div className="book-section-cta">
+        <div id='buy-options' className="book-section-cta">
           <div className="container">
             <div className="wrapper">
               <div className="cta-container">
                 <div className="heading">
-                  <span className='subtitle'>Your transformation starts with a single step. Dive into Unmazing Life and unlock the mindset shifts that will redefine your path. Are you ready?</span>
                   <h2>Enjoy the Journey, Embrace the Change</h2>
+                  <p>Your transformation starts with a single step. Dive into Unmazing Life and unlock the mindset shifts that will redefine your path. Are you ready?</p>
                 </div>
                 <BtnPrime text="Buy Now" />
               </div>
@@ -162,7 +162,7 @@ const BookLanding = () => {
         {/* CTA --- kraj */}
 
         {/* SECTION-5 --- pocetak */}
-        <div className="book-section-5">
+        <div id='testimonials' className="book-section-5">
           <div className="container">
             <div className="testimonials wrapper"  data-aos="fade-right">
               <div className="heading">
