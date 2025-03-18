@@ -6,6 +6,7 @@ import BtnPrime from '../../components/Buttons/BtnPrime';
 import BookSlider from '../../components/Sliders/BookSlider';
 import img_1 from '../../assets/book/book_sektion_1.png';
 import img_2 from '../../assets/book/aboutAutor_book.jpg';
+import img_3 from '../../assets/book/testimonials.jpg';
 import ParallaxSlider from '../../components/Sliders/ParallaxSlider';
 import AboutBookPopup from '../../components/Popups/BookLanding/AboutBookPopup';
 import TestimonialSlider from '../../components/Sliders/TestimonialSlider';
@@ -164,15 +165,22 @@ const BookLanding = () => {
         {/* SECTION-5 --- pocetak */}
         <div id='testimonials' className="book-section-5">
           <div className="container">
-            <div className="testimonials wrapper"  data-aos="fade-right">
-              <div className="heading">
-                <span className='subtitle'>Testimonials</span>
-                <h2>What Readers Are Saying</h2>
+            <div className="testimonials wrapper" >
+              <div className="testimonials--img-box" data-aos="zoom-in">
+                  <img src={img_3} alt="" className="" />
               </div>
-              <p><span className="mask">Unmazing Life</span> is more than just a book—it’s a catalyst for change. Through its powerful insights and practical wisdom, readers have discovered a new way of thinking about happiness, success, and fulfillment. No longer trapped by outdated beliefs or societal expectations, they’ve embraced the courage to redefine their lives on their own terms.<br/><br/>
-              From shifting their mindset about achievement to overcoming deep-rooted fears and self-doubt, each person who has applied these lessons has experienced profound transformation. They’ve learned to cultivate joy instead of chasing it, to align their daily actions with their true values, and to step into the future with confidence.<br/><br/>
-              Read what others are saying about how <span className="mask">Unmazing Life</span> has empowered them to break free, embrace change, and create a life that feels truly their own.</p>
-            </div>
+              <div className="testimonials--content" data-aos="fade-left">
+                <div className="heading">
+                  <span className='subtitle'>Testimonials</span>
+                  <h2>What Readers Are Saying</h2>
+                </div>
+                  <p><span className="mask">Unmazing Life</span> is more than just a book—it’s a catalyst for change. Through its powerful insights and practical wisdom, readers have discovered a new way of thinking about happiness, success, and fulfillment. No longer trapped by outdated beliefs or societal expectations, they’ve embraced the courage to redefine their lives on their own terms.<br/><br/>
+                  From shifting their mindset about achievement to overcoming deep-rooted fears and self-doubt, each person who has applied these lessons has experienced profound transformation. They’ve learned to cultivate joy instead of chasing it, to align their daily actions with their true values, and to step into the future with confidence.<br/><br/>
+                  Read what others are saying about how <span className="mask">Unmazing Life</span> has empowered them to break free, embrace change, and create a life that feels truly their own.</p>
+                </div>
+                
+              </div>
+              
           </div>
           <div className="slider no-select">
               <TestimonialSlider />
