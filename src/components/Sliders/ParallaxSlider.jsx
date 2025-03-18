@@ -13,21 +13,25 @@ import background_1 from '../../assets/book/parallaxSliderCover.jpg'
 const slides = [
   {
     image:  slide_1,
+    chapter: "Chapter 1",
     title: "The Power of Choosing Over Chasing",
     description: "Stop running toward an elusive idea of happiness and start making intentional choices that align with your true desires.",
   },
   {
     image:  slide_2,
+    chapter: "Chapter 2",
     title: "Happiness vs. Joy",
     description: "Understand the key difference between temporary happiness and lasting joy, and learn how to cultivate both in your daily life.",
   },
   {
     image:  slide_3,
+    chapter: "Chapter 3",
     title: "Embracing Change with Courage",
     description: "Fear is often the greatest barrier to transformation. Discover strategies to overcome hesitation and step boldly into the unknown.",
   },
   {
     image:  slide_4,
+    chapter: "Chapter 4",
     title: "Living Authentically",
     description: "Break free from societal expectations and create a life that genuinely reflects your values, passions, and inner truth.",
   },
@@ -60,9 +64,13 @@ const ParallaxSlider = () => {
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
                 <div className="content">
-                  <h3 className="title" data-swiper-parallax="-300">
-                    {slide.title}
-                  </h3>
+                  <div className="heading">
+                    <div className="subtitle">{slide.chapter}</div>
+                    <h3 className="title" data-swiper-parallax="-300">
+                      {slide.title}
+                    </h3>
+                  </div>
+                  
                   {/* <div className="subtitle" data-swiper-parallax="-200">
                     Subtitle
                   </div> */}
