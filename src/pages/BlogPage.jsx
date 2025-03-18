@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
+import MetaTags from '../components/Hamlets/MetaTags';
 
 const BlogPage = () => {
 
@@ -16,6 +17,7 @@ const BlogPage = () => {
         }, []);
   return (
     <>
+        <MetaTags />
        <Header />
         {/* HERO-SECTION --- pocetak */}
         <div className="blog-header-section">

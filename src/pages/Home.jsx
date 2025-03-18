@@ -29,6 +29,7 @@ import Accordion from '../components/Accordion/Accordion';
 import RecentPosts from '../components/posts/RecentPosts';
 import ContactForm from '../components/Forms/ContactForm';
 import Footer from '../components/Footer/Footer';
+import MetaTags from '../components/Hamlets/MetaTags';
 
 const data = [
   {
@@ -66,6 +67,7 @@ const Home = () => {
 
   return (
     <>
+        <MetaTags />
         <Header />
         {/* HERO-SECTION --- pocetak */}
         <div className="hero-section">

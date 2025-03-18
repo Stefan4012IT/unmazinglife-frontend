@@ -11,6 +11,7 @@ import ParallaxSlider from '../../components/Sliders/ParallaxSlider';
 import AboutBookPopup from '../../components/Popups/BookLanding/AboutBookPopup';
 import TestimonialSlider from '../../components/Sliders/TestimonialSlider';
 import Footer from '../../components/Footer/Footer';
+import MetaTags from '../../components/Hamlets/MetaTags';
 
 const BookLanding = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -24,6 +25,7 @@ const BookLanding = () => {
         }, []);
   return (
     <>
+        <MetaTags />
         <AboutBookPopup isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} />
         <Header />
         {/* HERO-SECTION --- pocetak */}
