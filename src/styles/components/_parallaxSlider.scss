@@ -17,6 +17,8 @@
           width: 100%;
           padding: 0;
         }
+
+        
     
 
         .swiper {
@@ -24,6 +26,18 @@
           height: 650px;
           background: #000;
           border-radius: 20px;
+
+          @media only screen and (max-width: 1200px) {
+            width: 90%;
+          }
+          @media only screen and (max-width: 992px) {
+            width: 75%;
+            height: 100%;
+          }
+
+          @media only screen and (max-width: 776px) {
+              width: 100%;
+          }
         }
         
         .swiper-slide {
@@ -73,18 +87,14 @@
           flex-direction: column;
           row-gap: 20px;
           color: #FFF;
+
           .subtitle {
-            font-size: 21px;
             z-index: 10;
           }
 
           .text {
             z-index: 10;
           }
-        }
-        .swiper-slide .subtitle {
-          font-size: 21px;
-          z-index: 10;
         }
         
         .swiper-slide .text {

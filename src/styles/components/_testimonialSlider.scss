@@ -22,6 +22,10 @@
                     flex-direction: column;
                     justify-content: flex-end;
 
+                    @media only screen and (max-width: 776px) {
+                      width: 100%;
+                    }
+
                     .testimonial-profile-picture {
                         width: 150px;
                         height: 150px;
