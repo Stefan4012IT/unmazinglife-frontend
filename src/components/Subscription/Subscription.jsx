@@ -36,8 +36,6 @@ const Subscription = () => {
 
     return (
         <div className='subscription'>
-            <div className="container">
-                <div className="wrapper">
                     <div className="subscription-container">
                         <div className='left-side'>
                             <div className='headline'>
@@ -60,8 +58,6 @@ const Subscription = () => {
                         </div>
                     </div>
                     
-                </div>
-            </div>
             
 
         </div>
